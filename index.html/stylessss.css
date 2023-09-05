@@ -1,0 +1,57 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-title {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.product-price {
+    margin-top: 5px;
+    color: #007bff;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .product-list {
+        grid-template-columns: 1fr;
+    }
+}

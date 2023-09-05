@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylessss.css">
+    <title>Product Catalog</title>
+</head>
+<body>
+    <header>
+        <h1>Product Catalog</h1>
+    </header>
+    <main>
+        <section class="product-list">
+<div class="product-card">
+    <img class="product-image" src="product1.jpg" alt="Product 1">
+    <h2 class="product-title">Product 1</h2>
+    <p class="product-price">$49.99</p>
+</div>
+<div class="product-card">
+    <img class="product-image" src="product1.jpg" alt="Product 1">
+    <h2 class="product-title">Product 1</h2>
+    <p class="product-price">$49.99</p>
+</div>
+
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Store</p>
+    </footer>
+</body>
+</html>
